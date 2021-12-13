@@ -9,6 +9,7 @@ release = '0.2'
 version = '0.2.0'
 
 # -- General configuration
+exclude_patterns = ['_build']
 
 extensions = [
     'sphinx.ext.duration',
@@ -35,7 +36,6 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.txt': 'restructuredtext',
     '.md': 'markdown',
 }
 

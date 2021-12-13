@@ -16,7 +16,7 @@ Creating recipes
 ----------------
 
 
-.. autofunction:: bonecli
+#.. autofunction:: bonecli
 
-.. autoexception:: boneio.helper.exceptions.GPIOInputException
+#.. autoexception:: boneio.helper.exceptions.GPIOInputException
 

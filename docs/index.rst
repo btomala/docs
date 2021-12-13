@@ -12,3 +12,7 @@ BoneIO Documentation
 Contents:
 
 .. toctree::
+   :maxdepth: 4
+   :caption: Contents
+
+   usage
