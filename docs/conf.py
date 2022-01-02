@@ -1,8 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-project = 'boneio'
-copyright = '2021, Maciej Krasuski'
+project = 'BoneIO'
+copyright = '2021, BoneIO team'
 author = 'Maciej Krasuski'
 
 release = '0.2'
