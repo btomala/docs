@@ -16,3 +16,4 @@ Contents:
    :caption: Contents
 
    usage
+   first_start
