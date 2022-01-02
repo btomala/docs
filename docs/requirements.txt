@@ -1,2 +1,4 @@
 myst-parser
+sphinx_copybutton
+Pygments
 #boneio
