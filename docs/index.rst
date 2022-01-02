@@ -16,4 +16,5 @@ Contents:
    :caption: Contents
 
    usage
-   first_start
+   example
+   app/first_start
