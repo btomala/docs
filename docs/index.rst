@@ -18,3 +18,4 @@ Contents:
    usage
    example
    app/first_start
+   app/scheme
