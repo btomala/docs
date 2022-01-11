@@ -39,7 +39,7 @@ sudo apt-get install libopenjp2-7-dev libatlas-base-dev python3-venv
 
 Now there are 2 ways to install BoneIO app.
 
-# Semi auto installation
+## Semi auto installation
 
 Follow on screen instruction.
 
@@ -47,13 +47,13 @@ Follow on screen instruction.
 bash -c "$(wget -qLO - https://github.com/boneIO-eu/app_bbb/raw/main/install_script.sh)"
 ```
 
-# Manual installation
+## Manual installation
 
 **Preffered way.**
 
 Let's assume installing as default debian user in home directory and Python 3.7 as base.
 
-## Prepare VENV
+### Prepare VENV
 
 ```bash
 mkdir ~/boneio
@@ -65,14 +65,14 @@ cp ~/venv/lib/python3.7/site-packages/boneio/example_config/*.yaml ~/boneio/
 
 Now edit `~/boneio/config.yaml`
 
-## Run manually with debug flag
+### Run manually with debug flag
 
 ```bash
 source ~/boneio/venv/bin/activate
 boneio run -c ~/boneio/config.yaml -dd
 ```
 
-## Create startup script
+### Create startup script
 
 Create file `~/boneio/boneio.service
 
