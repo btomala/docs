@@ -6,6 +6,7 @@
 mkdir ~/boneio_development
 python3 -m venv ~/boneio_development/venv
 source ~/boneio_development/venv/bin/activate
+cd ~/boneio_development
 git clone https://github.com/boneIO-eu/app_bbb.git
 ```
 
