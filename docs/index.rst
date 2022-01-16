@@ -19,3 +19,4 @@ Contents:
    example
    app/first_start
    app/scheme
+   app/development
