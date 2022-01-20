@@ -11,7 +11,9 @@ Beaglebone shortcut is BBB.
 passwd
 ```
 
-5. Update your BBB (click Yes if needed to perform upgrade). First upgrade can take ~30mins.
+#### Update your BBB
+
+(click Yes if needed to perform upgrade). First upgrade can take ~30mins.
 
 ```bash
 sudo apt-get update && sudo apt-get dist-upgrade
@@ -21,7 +23,7 @@ sudo apt-get update && sudo apt-get dist-upgrade
 reboot
 ```
 
-6. Add uEnv to enable all possible PINS
+#### Add uEnv to enable all possible PINS
 
 Edit `/boot/uEnv.txt` and uncomment following lines
 
@@ -31,7 +33,9 @@ disable_uboot_overlay_audio=1
 disable_uboot_overlay_wireless=1
 ```
 
-7. Disable unnecessary services (if you need some you can just avoid disabling it).
+#### Disable unnecessary services
+
+(if you need some you can just avoid disabling it).
 
 ```bash
 sudo systemctl disable bonescript-autorun nginx wpa_supplicant bonescript.socket cloud9.socket cryptsetup.target
@@ -41,7 +45,7 @@ sudo systemctl disable bonescript-autorun nginx wpa_supplicant bonescript.socket
 reboot
 ```
 
-8. Install dependencies
+#### Install dependencies
 
 ```bash
 sudo apt-get install libopenjp2-7-dev libatlas-base-dev python3-venv
