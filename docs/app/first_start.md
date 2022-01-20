@@ -21,7 +21,17 @@ sudo apt-get update && sudo apt-get dist-upgrade
 reboot
 ```
 
-6. Disable unnecessary services (if you need some you can just avoid disabling it).
+6. Add uEnv to enable all possible PINS
+
+Edit `/boot/uEnv.txt` and uncomment following lines
+
+```bash
+disable_uboot_overlay_video=1
+disable_uboot_overlay_audio=1
+disable_uboot_overlay_wireless=1
+```
+
+7. Disable unnecessary services (if you need some you can just avoid disabling it).
 
 ```bash
 sudo systemctl disable bonescript-autorun nginx wpa_supplicant bonescript.socket cloud9.socket cryptsetup.target
@@ -31,7 +41,7 @@ sudo systemctl disable bonescript-autorun nginx wpa_supplicant bonescript.socket
 reboot
 ```
 
-7. Install dependencies
+8. Install dependencies
 
 ```bash
 sudo apt-get install libopenjp2-7-dev libatlas-base-dev python3-venv
