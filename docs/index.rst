@@ -20,3 +20,4 @@ Contents:
    app/first_start
    app/scheme
    app/development
+   app/pin_scheme
