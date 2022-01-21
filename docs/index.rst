@@ -21,3 +21,4 @@ Contents:
    app/scheme
    app/development
    app/pin_scheme
+   app/update
